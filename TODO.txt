@@ -1,0 +1,13 @@
+For VHDL compilation, create a "VHDL Program" class. For each VHDL class, it has
+a list of component objects it requires. 
+
+Component classes have static "Compile entity" funcitons which compiles the
+class into a VHDL entity
+
+Compilation of VHDL Programs:
+
+First Pass: 
+    Compile the entities required by the program
+
+Second Pass:
+    Compile behavior into component interfaces and component instances
