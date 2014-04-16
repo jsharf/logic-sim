@@ -1,4 +1,4 @@
 all:
-	gcc -O2 logic.c -o log
+	gcc logic.c -o log
 clean:
 	rm log
